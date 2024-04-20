@@ -24,6 +24,7 @@ public class OfferedCourse extends Course{
       System.out.println("Instructor Name: " + this.instructorName);
       System.out.println("Course Location: " + this.location);
       System.out.println("Course Time: " + this.time);
+      System.out.println("Credit Hours: " + this.creditHours);
    }
 
    public void printInfo(String header) {
@@ -33,6 +34,7 @@ public class OfferedCourse extends Course{
       System.out.println("Instructor Name: " + this.instructorName);
       System.out.println("Course Location: " + this.location);
       System.out.println("Course Time: " + this.time);
+      System.out.println("Credit Hours: " + this.creditHours);
    }
 
    // TODO: implement computeExpectedWorkHours, as describes in the quiz document
